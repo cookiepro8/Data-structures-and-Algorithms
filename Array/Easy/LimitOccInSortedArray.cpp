@@ -1,5 +1,5 @@
 //3940.
-
+//Read-Write two pointer pattern
 class Solution {
 public:
     vector<int> limitOccurrences(vector<int>& nums, int k) {
