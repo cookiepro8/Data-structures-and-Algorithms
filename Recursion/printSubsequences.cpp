@@ -12,6 +12,7 @@ void printF(int ind, vector<int> &ds, int arr[], int n){
             cout << "{}";
         }
         cout << endl;
+        
         return;
     }
 
