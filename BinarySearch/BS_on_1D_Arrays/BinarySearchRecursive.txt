@@ -1,0 +1,13 @@
+int binartsearch(int low, int high, vector<int> &nums, int target){
+    if(l>r) return -1;
+    int mid = low + (high-low)/2;
+
+    if(nums[mid] == target) return mid;
+    return ((nums[mid] < target)? 
+                binarysearch(mid+1, high, nums, target);
+                binarysearch(low, mid-1, nums, target));
+}
+
+int search(vector<int> &nums, int target){
+    return binarysearch(0, nums.size()-1, nums, target);
+}
