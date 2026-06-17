@@ -18,7 +18,7 @@ public:
         while (low <= high) {
             int mid = low + (high - low) / 2;
 
-            int tt = totalTime(dist, mid);
+            double tt = totalTime(dist, mid);
 
             if (tt <= hour) {
                 ans = mid;
