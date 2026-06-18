@@ -14,6 +14,9 @@ Finally add all the subsets in the result array.
 1   0   1
 1   1   0
 1   1   1
+
+Note:
+Backtracking is much efficient in this case.
 */
 
 class Solution {
